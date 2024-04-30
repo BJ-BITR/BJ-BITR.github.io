@@ -16,5 +16,10 @@ if a == "20240409":
         return render_template('index.html')
 
     app.run()
+else:
+    print("您的密码不正确，请您修改密码并从新登陆或联系工作人员解决")
+    print("Your password is incorrect. Please change your password and log in again or contact the staff to resolve the issue")
+    print("请您拨打服务热线：13661372247")
+    print("If you have question，please call working personnel at: +86 13661372247
     
 #©2024-2025北京BITR工作室
